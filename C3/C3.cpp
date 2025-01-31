@@ -14,7 +14,7 @@ int main()
     cout << "Please enter the purchase total:" << endl; cin >> purchasetotal;
     cout << "Please enter the state tax, then the county tax:" << endl; cin >> statetax >> countytax;
 
-    // Calculate the maffs
+    // Calculate the maff
     totaltax = (purchasetotal * (statetax / 100)) + (purchasetotal * (countytax / 100));
 
     // Display output to 2 decimal places
